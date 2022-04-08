@@ -1,0 +1,46 @@
+.wow {
+  width: 100px;
+}
+
+
+
+body{
+background:goldenrod;
+}
+
+nav{
+display:flex;
+color:whitesmoke;
+  
+  margin:40px;
+
+
+  
+}
+.cabecera{
+    background:silver;
+  grid-area:header;
+  border:40px;
+  padding:1px;
+  cursor:auto;
+}
+
+section{
+    background:silver;
+  grid-area:section;
+}
+
+aside{
+    background:greenyellow;
+  grid-templates-rows:1fr 1fr 1fr 1fr;
+  width:100px;
+}
+footer{
+    background:darkred;
+  
+}
+html{
+  display:grid;
+    grid-templates-rows:1fr 1fr 1fr 1fr;
+
+}
